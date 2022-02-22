@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App11",
+            "request": "launch",
+            "mainClass": "App11",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch App10",
+            "request": "launch",
+            "mainClass": "App10",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch App9",
+            "request": "launch",
+            "mainClass": "App9",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch App8",
+            "request": "launch",
+            "mainClass": "App8",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch App7",
+            "request": "launch",
+            "mainClass": "App7",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App1",
+            "request": "launch",
+            "mainClass": "App1",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch App2",
+            "request": "launch",
+            "mainClass": "App2",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch App3",
+            "request": "launch",
+            "mainClass": "App3",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch App4",
+            "request": "launch",
+            "mainClass": "App4",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch App5",
+            "request": "launch",
+            "mainClass": "App5",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch App6",
+            "request": "launch",
+            "mainClass": "App6",
+            "projectName": "BaiThucHanh2202_60b86ecb"
+        }
+    ]
+}
