@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class App41 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
         LinkedList<String> linkedList = new LinkedList<>();
