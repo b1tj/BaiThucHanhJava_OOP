@@ -20,12 +20,6 @@ public class NhanVien{
         diaChi = sc.nextLine();
     }
 
-    public void showList(){
-        System.out.println("Ma nhan vien: " + maNV);
-        System.out.println("Ten nhan vien:" + tenNV);
-        System.out.println("Dia chi: " + diaChi);
-    }
-
 }
 
 //2021050800

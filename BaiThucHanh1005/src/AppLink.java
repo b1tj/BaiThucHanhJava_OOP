@@ -1,11 +1,11 @@
 import NhanVien.*;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Scanner;
 
-public class AppArr {
+public class AppLink {
     public static void main(String[] args) throws Exception {
-        ArrayList<NhanVien> listNhanViens = new ArrayList<>();
+        LinkedList<NhanVien> listNhanViens = new LinkedList<>();
         int n;
         System.out.println("Nhap so nhan vien:");
         Scanner sc = new Scanner(System.in);
@@ -56,19 +56,18 @@ public class AppArr {
                 System.out.println("Dia chi nhan vien: " + listNhanViens.get(i).diaChi);
             }
 
-        //Tim kiem thong tin nhan vien theo ten
-        System.out.println("Nhap ten nhan vien can tim kiem");
-        String temp;
-        temp = sc.nextLine();
-        System.out.println("Danh sach nhan vien co ten: " + temp);
-        for(int i = 0; i < listNhanViens.size(); i++){
-            if(listNhanViens.get(i).tenNV == temp){
-                System.out.println("Ma nhan vien: " + listNhanViens.get(i).maNV);
-                System.out.println("Ten nhan vien: " + listNhanViens.get(i).tenNV);
-                System.out.println("Dia chi nhan vien: " + listNhanViens.get(i).diaChi);
+            //Tim kiem theo ten nhan vien
+            System.out.println("Nhap ten nhan vien can tim kiem");
+            String temp;
+            temp = sc.nextLine();
+            System.out.println("Danh sach nhan vien co ten: " + temp);
+            for(int i = 0; i < listNhanViens.size(); i++){
+                if(listNhanViens.get(i).tenNV == temp){
+                    System.out.println("Ma nhan vien: " + listNhanViens.get(i).maNV);
+                    System.out.println("Ten nhan vien: " + listNhanViens.get(i).tenNV);
+                    System.out.println("Dia chi nhan vien: " + listNhanViens.get(i).diaChi);
+                }
             }
-        }
-
     }
 }
 

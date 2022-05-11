@@ -1,4 +1,3 @@
-import java.util.IntSummaryStatistics;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -13,9 +12,11 @@ public class App112 {
         do{
             System.out.println("Nhap ho ten sinh vien: ");
             ten = sc.nextLine();
-            System.out.println("Nhap diem sinh vien: ");
-            diem = sc.nextInt();
-            sinhViens.add(new SinhVien(ten, diem));
+            if(ten != ""){
+                System.out.println("Nhap diem sinh vien: ");
+                diem = sc.nextInt();
+                sinhViens.add(new SinhVien(ten, diem));
+            }
         }   while(ten != "");
 
         int dem = 0;
@@ -23,8 +24,10 @@ public class App112 {
         for(int i = 0; i < sinhViens.size(); i++){
             if(sinhViens.get(i).diemSV <= 5){
                 sinhViens2.add(sinhViens.get(i));
+                dem++;
             }
         }
+        System.out.println("So sinh vien phai thi lai: " + dem);
         System.out.println("Danh sach sinh vien thi lai: ");
         System.out.println(sinhViens2);
 
@@ -38,12 +41,19 @@ public class App112 {
         LinkedList<SinhVien> sinhViens3 = new LinkedList<>();
         for(SinhVien number : sinhViens){
             if(number.diemSV == max){
-                sinhViens3.add(sinhViens.get(i));
+                sinhViens3.add(number);
             }
         }
         System.out.println("Danh sach cac sinh vien co diem cao nhat: " + sinhViens3);
 
-        
+        System.out.println("Nhap ten sinh vien can tim:");
+        String temp = sc.nextLine();
+        for(int i = 0; i < sinhViens.size(); i++){
+            if(sinhViens.get(i).tenSV == temp){
+                System.out.println("Danh sach sinh vien co ten: " + temp);
+                System.out.println(sinhViens.get(i));
+            }
+        }
     }
 }
 
